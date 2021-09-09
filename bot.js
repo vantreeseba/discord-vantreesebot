@@ -45,3 +45,10 @@ client.on('interactionCreate', async (interaction) => {
 });
 
 client.login(AUTH_TOKEN);
+
+// client.login(AUTH_TOKEN).then(async () => {
+//   const channel = await client.channels.fetch('885250989916033055');
+//   setInterval(() => {
+//     channel.send('wee');
+//   }, 1000);
+// });

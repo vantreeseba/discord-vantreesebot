@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  discord-vantreesebot:
+    image: vantreeseba/discord-vantreesebot
+    volumes:
+      - ./:/usr/src/app
